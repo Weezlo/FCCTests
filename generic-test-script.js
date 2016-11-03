@@ -266,15 +266,15 @@ function createPomodoroClockTests(){
 
     describe("#Tests", function(){
       
-      it("1. I can see the string \"Break Length\" in an element with id=\"break-title\".", function(){
-        const break_title = document.getElementById("break-title");
+      it("1. I can see the string \"Break Length\" in an element with id=\"break-label\".", function(){
+        const break_title = document.getElementById("break-label");
         assert.strictEqual(break_title.innerText, "Break Length", 
                            "The text 'Break Length' is not intially displayed. " +
                             "Did you capitalize the first letter of each word?");
       });
       
-      it("2. I can see the string \"Session Length\" in an element with id=\"session-title\".", function(){
-        const session_title = document.getElementById("session-title");
+      it("2. I can see the string \"Session Length\" in an element with id=\"session-label\".", function(){
+        const session_title = document.getElementById("session-label");
         assert.strictEqual(session_title.innerText, "Session Length", 
                            "The text 'Session Length' is not intially displayed. " +
                             "Did you capitalize the first letter of each word?");
